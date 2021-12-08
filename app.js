@@ -1,3 +1,7 @@
+import { ozzysounds } from './data.js';
+
+console.log(ozzysounds);
+
 
 const audio = document.getElementById('audio');
 
