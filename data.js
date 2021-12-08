@@ -1,13 +1,13 @@
 export const ozzysounds = [{
-  name: 'Ozzy Sound 1',
+  name: 'Morning Ozzy',
   image: 'assets/avatars/ozzyimage1.jpeg',
   audio: 'assets/sounds/ozzysound1.mp3',
 }, {
-  name: 'Ozzy Sound 2',
+  name: 'Afternoon Ozzy',
   image: 'assets/avatars/ozzyimage2.jpeg',
   audio: 'assets/sounds/ozzysound2.mp3',
 }, {
-  name: 'Ozzy Sound 3',
+  name: 'Evening Ozzy',
   image: 'assets/avatars/ozzyimage3.jpeg',
   audio: 'assets/sounds/ozzysound3.mp3',
 
