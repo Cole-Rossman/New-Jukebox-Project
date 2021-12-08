@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-background: #343434;
+    --secondary-background: #949494;
+    --chrome-background: #B7B7B7;
+    --text-color: #191410;
+    --accent-light: #847C84;
+    --accent-dark: #84847F;
+
+    --padding: 20px;
+
+}
+
+body {
+    background: var(--primary-background);
+    font-family: 'MedievalSharp';
+    color: var(--text-color);
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background: var(--chrome-background);
+    padding: var(--padding);
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: var(--padding);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    width: 175px;
+    height: 145px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    place-items: center;
+    background: #FFFFF0;
+    border: 3px solid var(--accent-dark);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 250ms ease-in;
+}
+
+li:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+img {
+    width: 43px;
+}
+
+button {
+    width: 33px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+button:hover {
+    width: 100px;
+}
+
+button:active {
+    background: var(--accent-light);
+}
+
+
+footer {
+    background: var(--secondary-background);
+    opacity: 0.75;
+    padding: 5px var(--padding);
+}
