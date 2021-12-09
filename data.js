@@ -14,7 +14,7 @@ export const ozzysounds = [{
 }, {
   name: 'Ozzy Sound 4',
   image: 'assets/avatars/ozzyimage4.jpeg',
-  audio: 'assets/sounds/ozzysound2.mp3',
+  audio: 'assets/sounds/ozzysound4.mp3',
 
 }, {
   name: 'Ozzy Sound 5',
@@ -29,7 +29,7 @@ export const ozzysounds = [{
 }, {
   name: 'Ozzy Sound 7',
   image: 'assets/avatars/ozzyimage7.jpeg',
-  audio: 'assets/sounds/ozzysound2.mp3',
+  audio: 'assets/sounds/ozzysound4.mp3',
 
 }, {
   name: 'Ozzy Sound 8',
@@ -44,6 +44,6 @@ export const ozzysounds = [{
 }, {
   name: 'Ozzy Sound 10',
   image: 'assets/avatars/ozzyimage10.jpeg',
-  audio: 'assets/sounds/ozzysound2.mp3',
+  audio: 'assets/sounds/ozzysound2.mp4',
 
 }];
